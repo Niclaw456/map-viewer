@@ -1,9 +1,11 @@
 # Cardputer-Adv — Off-grid Offline Map Viewer
 
+
 A PlatformIO / Arduino app for the **M5Stack Cardputer-Adv** (ESP32-S3FN8,
 ST7789V2 240×135) that shows your live GPS position over **offline OpenStreetMap
 tiles** read from a MicroSD card. GPS comes from the **Cap LoRa-1262** module
 (AT6668/ATGM336H). Pan the map with the keyboard; press **`g`** to snap back to GPS.
+
 
 ## Features
 - M5Unified / M5GFX display setup (landscape, 240×135)
@@ -19,6 +21,7 @@ tiles** read from a MicroSD card. GPS comes from the **Cap LoRa-1262** module
 2. Open this folder. Libraries in `platformio.ini` download automatically.
 3. Connect the Cardputer-Adv over USB-C and run **Upload** (`pio run -t upload`).
 4. Serial monitor is 115200 baud.
+
 
 > Board is set to `m5stack-stamps3` (the Cardputer's ESP32-S3 module) with an
 > 8 MB flash partition. If PlatformIO can't resolve it, update the espressif32
